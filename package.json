@@ -1,0 +1,31 @@
+{
+  "name": "webcontatos",
+  "version": "1.0.0",
+  "description": "Agendas de contatos em nodejs ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node_modules/nodemon/bin/nodemon.js app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazarodaniel83/projLearnNodesjs_webContatos.git"
+  },
+  "author": "Lazaro Daniel Santos Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lazarodaniel83/projLearnNodesjs_webContatos/issues"
+  },
+  "homepage": "https://github.com/lazarodaniel83/projLearnNodesjs_webContatos#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-load": "1.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
